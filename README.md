@@ -7,8 +7,6 @@
 
 - 🌱 I’m currently learning **Deep Learning**
 
-- 👨‍💻 All of my projects are available at [https://github.com/sorrow-boy/](https://github.com/sorrow-boy/)
-
 - 📫 How to reach me **ramanandrama9@gmail.com@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
