@@ -1,0 +1,103 @@
+.projects{
+    margin-bottom: 200px;
+}
+
+.projects-intro{
+    margin-top:80px;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+}
+
+.projects-intro  img{
+    width: 40px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.project{
+    height: 300px;
+    margin-bottom: 20px;
+    /* border:solid red 1px; */
+
+}
+
+.project .head{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.projects .head .image{
+    width:80px;
+    height: 70px;
+    border-radius: 5px;
+    background: linear-gradient(to bottom right, #777777, #888888);
+}
+
+.projects .head img{
+    width: 80px;
+    height: 70px;
+    border-radius: 5px;
+    filter:grayscale(30%);
+}
+
+.projects .head .title{
+    flex-grow: 1;
+    height: 70px;
+    font-size: 18px;
+    margin-left:5px;
+    background:linear-gradient(to bottom right, #292929, #333333);
+    border-radius: 5px;
+    padding: 5px;
+    color: #eeeeee;
+}
+
+.project .description{
+    text-align:justify;
+    padding: 10px;
+    height: 180px;
+    font-size: 14px;
+    background-color:rgba(100,100,100,.1);
+    color: #aaaaaa;
+}
+
+.project .info{
+    margin: 5px 0;
+    background-color: #2d2d2d;
+    /* border-radius: 5px; */
+    padding-left: 20px;
+    color: #999999;
+    text-transform: capitalize;
+    font-size:13px;
+}
+
+.project .info github{
+    float: right;
+    margin-right: 20px;
+}
+
+.project .info img{
+    height: 20px;
+    width: 20px;
+    transform: translateY(-3px);
+    
+}
+
+.button{
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.button button{
+    padding: 5px 25px 5px 25px;
+    text-transform: capitalize;
+    color: rgb(92, 180, 104);
+    transform: translateY(150px);
+    border: solid rgb(92, 180, 104) 2px;
+    background:none;
+}
+
+
+.button button:hover{
+    background:rgba(92,180,104,.1)
+}

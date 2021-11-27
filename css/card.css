@@ -1,0 +1,102 @@
+.card-message{
+    display:flex;
+    /* border: solid yellow 1px; */
+}
+
+.short-card{
+    width: 50%;
+    /* border: solid blue 1px; */
+    background: linear-gradient(to top right, #333333,#353535);
+    padding: 20px 20px 5px 20px;
+}
+.about-card{
+    flex-grow:1;
+    border: solid green 1ps;;
+}
+
+
+.short-card .card-top{
+    width: 100%;
+    display: flex;
+}
+
+.short-card .card-top .image{
+    width: 20%;
+    text-align:center;
+    transform: translateY(20px);
+}
+.short-card .card-top .image img{
+    width: auto;
+    height: 100px;
+    border:solid rgb(92,180,104) 1px;
+    border-radius: 50px;
+}
+
+.short-card .card-top .card-text{
+    flex-grow: 1;
+    margin-left: 50px;
+}
+
+.short-card .card-top .name hi{
+    font-size: 13px;
+    color: rgb(105, 206, 118);
+}
+
+.short-card .card-top .name name{
+    font-size: 30px;
+    text-transform:capitalize;
+    margin-left: 10px;
+    color: #888888;
+    text-shadow: 0 0 15px rgb(0,0,0);
+}
+
+.short-card .card-top .work{
+    font-size: 13px;
+}
+
+.short-card .card-top domain{
+    font-size: 15px;
+    color:rgb(219, 123, 78);
+    font-weight: 400;
+}
+
+.short-card .card-top .contact{
+    font-size: 13px;
+    text-align:center;
+}
+.short-card .card-top .contact img{
+    width: 15px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.short-card .card-top .contact website{
+    margin-left: 20px;
+}
+
+.short-card .card-college {
+    text-align:center;
+    margin-top: 20px;
+}
+
+.short-card .card-college img{
+    width: 30px;
+    height: auto;
+}
+
+
+.short-card .card-college div{
+    display:inline;
+    transform: translateY(5px);
+    margin-left: 15px;
+    font-size: 13px;
+}
+
+.about-card{
+    flex-grow: 1;
+    padding: 25px 20px 10px 20px;
+    font-size: 14px;
+    color: #aaaaaa;
+    text-align:justify
+
+}
